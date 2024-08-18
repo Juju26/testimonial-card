@@ -6,10 +6,12 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   min-height: 100vh;
+  background-color: gray;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  overflow-y: hidden;
 }
 
 * {
@@ -28,4 +30,50 @@ body {
 .credits a {
   color: #000;
   font-weight: bold;
+}
+
+.card-container {
+  margin-top: 200px;
+  margin-bottom: auto;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.card-flex {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.card-pic {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  padding-left: 2px;
+}
+
+.card-userName {
+  padding-left: 16px;
+}
+.card-userPrimaryName {
+  font-size: 18px;
+}
+
+.card-userHandle {
+  font-size: 14px;
+  color: #525252;
+
+}
+
+.card-userAbout {
+  font-size: 16px;
+  margin-top: 16px;
+  color: #525252;
 }
